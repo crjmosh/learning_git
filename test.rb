@@ -15,13 +15,13 @@ end
 # Feature Branch Code
 case age
 	when 18
-		"You can now smoke cigs"
+		puts "You can now smoke cigs"
 	when 21
-		"yay, drinking and gambling"
+		puts "yay, drinking and gambling"
 	when 26
-		"this is the last milestone, rent a car!"
+		puts "this is the last milestone, rent a car!"
 	else
-		"cool, you have an age!"
+		puts "cool, you have an age!"
 end
 
 def menu
